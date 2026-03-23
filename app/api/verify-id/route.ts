@@ -1,19 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { promises as fs } from 'fs';
-import path from 'path';
-import { VALID_DEPOSIT_IDS } from '@/lib/validIds';
-
-const DATA_FILE = path.join(process.cwd(), 'data', 'validIds.json');
-
-async function getDynamicIds(): Promise<Set<string>> {
-  try {
-    const content = await fs.readFile(DATA_FILE, 'utf-8');
-    const data = JSON.parse(content) as { ids: Record<string, unknown> };
-    return new Set(Object.keys(data.ids ?? {}));
-  } catch {
-    return new Set();
-  }
-}
+import { kv } from '@vercel/kv';
 
 export async function POST(req: NextRequest) {
   try {
@@ -24,13 +10,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: false, error: 'Введите ID аккаунта.' }, { status: 400 });
     }
 
-    // Check hardcoded list first (instant), then dynamic file
-    if (VALID_DEPOSIT_IDS.has(clean)) {
-      return NextResponse.json({ ok: true });
-    }
-
-    const dynamicIds = await getDynamicIds();
-    if (dynamicIds.has(clean)) {
+    const exists = await kv.exists(`player:${clean}`);
+    if (exists) {
       return NextResponse.json({ ok: true });
     }
 
