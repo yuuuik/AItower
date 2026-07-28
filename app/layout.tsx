@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: '%s | Tower Rush',
   },
   description:
-    'Tower Rush играть онлайн бесплатно — краш-игра с AI Аналитиком. Предсказание этажа краша, стратегии, схема, промокод MARCHTOWER на 1win +500%.',
+    'Tower Rush играть онлайн бесплатно — краш-игра с AI Аналитиком. Предсказание этажа краша, стратегии, схема, промокод ADUNLOCK на 1win +500%.',
   keywords: [
     'tower rush играть',
     'tower rush стратегии',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: 'Tower Rush',
     title: 'Tower Rush — Демо-игра с AI Аналитиком',
     description:
-      'Бесплатная демо краш-игра Tower Rush с AI Аналитиком. Тренируйте стратегии и получите бонус до 500% с промокодом MARCHTOWER на 1win.',
+      'Бесплатная демо краш-игра Tower Rush с AI Аналитиком. Тренируйте стратегии и получите бонус до 500% с промокодом ADUNLOCK на 1win.',
     images: [
       {
         url: '/towerrush.png',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tower Rush играть онлайн — бесплатное демо с AI предсказателем',
     description:
-      'Tower Rush играть онлайн бесплатно. AI предсказывает этаж краша. Промокод MARCHTOWER — бонус +500% на 1win.',
+      'Tower Rush играть онлайн бесплатно. AI предсказывает этаж краша. Промокод ADUNLOCK — бонус +500% на 1win.',
     images: ['/towerrush.png'],
   },
   icons: {
@@ -73,7 +73,7 @@ const websiteSchema = {
   name: 'Tower Rush',
   url: SITE_URL,
   description:
-    'Tower Rush — бесплатная демо краш-игра с AI Аналитиком. Стратегии, схема игры, промокод MARCHTOWER на 1win.',
+    'Tower Rush — бесплатная демо краш-игра с AI Аналитиком. Стратегии, схема игры, промокод ADUNLOCK на 1win.',
   inLanguage: 'ru',
   potentialAction: {
     '@type': 'SearchAction',

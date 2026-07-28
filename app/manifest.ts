@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Tower Rush',
     short_name: 'Tower Rush',
-    description: 'Демо краш-игра с AI Аналитиком. Стратегии, схема, промокод MARCHTOWER на 1win.',
+    description: 'Демо краш-игра с AI Аналитиком. Стратегии, схема, промокод ADUNLOCK на 1win.',
     start_url: '/',
     display: 'standalone',
     background_color: '#141415',

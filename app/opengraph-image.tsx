@@ -125,7 +125,7 @@ export default function Image() {
           {[
             { value: '×15', label: 'Макс. множитель' },
             { value: 'AI', label: 'Предсказатель' },
-            { value: '500%', label: 'Бонус MARCHTOWER' },
+            { value: '500%', label: 'Бонус ADUNLOCK' },
           ].map(item => (
             <div
               key={item.label}

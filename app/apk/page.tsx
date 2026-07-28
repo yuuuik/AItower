@@ -269,7 +269,7 @@ export default function APKPage() {
               <div>
                 <p className="text-white font-black text-base">Играйте на реальные деньги</p>
                 <p className="text-white/35 text-sm mt-1">
-                  Промокод <span className="text-blue-300 font-mono font-bold">MARCHTOWER</span> — бонус до 500% на 1win
+                  Промокод <span className="text-blue-300 font-mono font-bold">ADUNLOCK</span> — бонус до 500% на 1win
                 </p>
               </div>
               <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full">

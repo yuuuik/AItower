@@ -90,7 +90,7 @@ const bankrollTips = [
   { Icon: Shield,   title: 'Правило 10%',           text: 'Не ставьте более 10% баланса за один раунд. При 5 000 ₽ — ставка не более 500 ₽.' },
   { Icon: TrendingUp, title: 'Фиксируйте прибыль', text: 'Заработали ×2 от стартового баланса? Снизьте ставку и зафиксируйте результат.' },
   { Icon: Zap,      title: 'Без погони за потерями', text: 'Три проигрыша подряд — снизьте ставку. Серия проигрышей не гарантирует победу.' },
-  { Icon: BookOpen, title: 'Используйте промокоды', text: 'Промокод MARCHTOWER на 1win даёт бонус до 500% — больше баланса, больше возможностей.' },
+  { Icon: BookOpen, title: 'Используйте промокоды', text: 'Промокод ADUNLOCK на 1win даёт бонус до 500% — больше баланса, больше возможностей.' },
 ];
 
 const breadcrumbSchema = {
@@ -284,7 +284,7 @@ export default function StrategiesPage() {
               <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full">
                 <div className="w-full py-3.5 rounded-2xl font-bold text-sm text-white text-center cursor-pointer"
                   style={{ background: 'linear-gradient(135deg, #15803d 0%, #16a34a 60%, #4ade80 100%)' }}>
-                  Играть на реальные деньги · Промокод MARCHTOWER
+                  Играть на реальные деньги · Промокод ADUNLOCK
                 </div>
               </a>
             </div>
