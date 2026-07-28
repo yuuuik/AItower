@@ -116,7 +116,7 @@ export default function FAQPage() {
               <p className="text-white font-bold text-sm group-hover:text-blue-300 transition-colors">Стратегии</p>
               <p className="text-white/35 text-xs mt-0.5">Тактики и советы</p>
             </a>
-            <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-green-500/20 bg-green-500/5 p-4 hover:bg-green-500/10 transition-colors group">
+            <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer" className="rounded-2xl border border-green-500/20 bg-green-500/5 p-4 hover:bg-green-500/10 transition-colors group">
               <div className="w-9 h-9 rounded-xl bg-green-500/20 flex items-center justify-center mb-3">
                 <ExternalLink size={18} className="text-green-400" strokeWidth={2} />
               </div>

@@ -98,13 +98,13 @@ export default function RealMoneyModal() {
                     </div>
                     <div>
                       <p className="text-white/40 text-xs">Промокод при регистрации на 1win</p>
-                      <p className="font-mono font-bold text-base text-blue-300 tracking-widest leading-tight">MARCHTOWER</p>
+                      <p className="font-mono font-bold text-base text-blue-300 tracking-widest leading-tight">ADUNLOCK</p>
                       <p className="text-green-400 text-xs font-medium mt-0.5">Бонус до 500% на первый депозит</p>
                     </div>
                   </div>
 
                   {/* Primary CTA */}
-                  <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full block">
+                  <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer" className="w-full block">
                     <motion.div
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}

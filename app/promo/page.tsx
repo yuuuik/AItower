@@ -142,7 +142,7 @@ export default function PromoPage() {
                   <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-blue-500 to-green-400 opacity-60 blur-sm group-hover:opacity-80 transition" />
                   <div className="relative px-10 py-4 rounded-2xl border border-white/10" style={{ background: '#141415' }}>
                     <p className="font-mono font-black text-3xl tracking-[0.2em] text-white">
-                      MARCH<span className="text-blue-300">TOWER</span>
+                      AD<span className="text-blue-300">UNLOCK</span>
                     </p>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export default function PromoPage() {
               </div>
 
               {/* CTA */}
-              <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full block">
+              <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer" className="w-full block">
                 <div
                   className="w-full py-4 rounded-2xl font-bold text-base text-white text-center shadow-xl shadow-green-900/25 hover:shadow-green-900/40 transition-shadow cursor-pointer"
                   style={{ background: 'linear-gradient(135deg, #15803d 0%, #16a34a 55%, #4ade80 100%)' }}

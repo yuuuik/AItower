@@ -216,7 +216,7 @@ export default function DesktopHeader() {
         )}
 
         {/* Play */}
-        <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer">
+        <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer">
           <motion.button
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}

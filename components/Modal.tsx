@@ -183,7 +183,7 @@ export default function Modal() {
                       <a
                         href={REAL_MONEY_URL}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="nofollow sponsored noopener noreferrer"
                         className="flex items-center gap-1.5 text-white/30 hover:text-white/55 text-xs transition-colors"
                       >
                         <ExternalLink size={11} />

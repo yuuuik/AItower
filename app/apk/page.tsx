@@ -272,7 +272,7 @@ export default function APKPage() {
                   Промокод <span className="text-blue-300 font-mono font-bold">ADUNLOCK</span> — бонус до 500% на 1win
                 </p>
               </div>
-              <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full">
+              <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer" className="w-full">
                 <div
                   className="w-full py-3.5 rounded-2xl font-bold text-sm text-center"
                   style={{ background: 'linear-gradient(135deg, #15803d 0%, #4ade80 100%)', color: '#052e16' }}

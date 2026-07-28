@@ -108,7 +108,7 @@ export const useGameStore = create<GameState>()(
       applyPromoCode: (code) => {
         const upper = code.trim().toUpperCase();
         const promos: Record<string, { balance?: number; attempts?: number; label: string }> = {
-          'MARCHTOWER': { balance: 5000, label: '+5000 ₽ бонус' },
+          'ADUNLOCK': { balance: 5000, label: '+5000 ₽ бонус' },
         };
         const promo = promos[upper];
         if (!promo) {

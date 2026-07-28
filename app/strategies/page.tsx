@@ -281,7 +281,7 @@ export default function StrategiesPage() {
                 <p className="text-white font-black text-lg">Готовы к реальной игре?</p>
                 <p className="text-white/40 text-sm mt-1">Применяйте стратегии с бонусом 1win</p>
               </div>
-              <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full">
+              <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer" className="w-full">
                 <div className="w-full py-3.5 rounded-2xl font-bold text-sm text-white text-center cursor-pointer"
                   style={{ background: 'linear-gradient(135deg, #15803d 0%, #16a34a 60%, #4ade80 100%)' }}>
                   Играть на реальные деньги · Промокод ADUNLOCK
