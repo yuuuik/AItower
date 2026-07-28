@@ -3,17 +3,17 @@ import HomeClient from '@/components/HomeClient';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Tower Rush играть онлайн — бесплатное демо с AI предсказателем',
+  title: 'Tower Rush 1win Demo — играть онлайн с AI предсказателем',
   description:
-    'Tower Rush играть онлайн бесплатно — краш-игра с AI Аналитиком, который точно предсказывает этаж краша. Тренируйте стратегии в демо и переходите на реальные деньги с промокодом ADUNLOCK на 1win.',
+    'Tower Rush 1win demo — играть онлайн бесплатно, краш-игра с AI Аналитиком, который точно предсказывает этаж краша. Тренируйте стратегии в демо и переходите на реальные деньги с промокодом ADUNLOCK на 1win.',
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
     url: SITE_URL,
-    title: 'Tower Rush играть онлайн — бесплатное демо с AI предсказателем',
+    title: 'Tower Rush 1win Demo — играть онлайн с AI предсказателем',
     description:
-      'Tower Rush играть онлайн — AI предсказывает краш. Промокод ADUNLOCK — бонус +500% на 1win.',
+      'Tower Rush 1win demo — AI предсказывает краш. Промокод ADUNLOCK — бонус +500% на 1win.',
   },
 };
 
@@ -37,7 +37,7 @@ export default function Home() {
         <h3>Промокод ADUNLOCK для 1win</h3>
         <p>
           Введите промокод ADUNLOCK при регистрации на 1win и получите бонус до 500% на первый
-          депозит. Рабочий промокод 1win 2025.
+          депозит. Рабочий промокод 1win 2026.
         </p>
         <h3>Tower Rush скачать на Android и iPhone</h3>
         <p>
