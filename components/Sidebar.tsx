@@ -2,11 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { usePathname, useRouter } from 'next/navigation';
-import { Gamepad2, BarChart3, Gift, HelpCircle, Smartphone, Zap } from 'lucide-react';
+import { Gamepad2, BookOpen, BarChart3, Gift, HelpCircle, Smartphone, Zap } from 'lucide-react';
 import { useGameStore } from '@/store/gameStore';
 
 const items = [
   { id: 'demo',       label: 'Демо',       Icon: Gamepad2,   href: '/' },
+  { id: 'guide',      label: 'Гайд',       Icon: BookOpen,   href: '/guide' },
   { id: 'strategies', label: 'Стратегии',  Icon: BarChart3,  href: '/strategies' },
   { id: 'promo',      label: 'Промокод',   Icon: Gift,       href: '/promo' },
   { id: 'faq',        label: 'FAQ',        Icon: HelpCircle, href: '/faq' },
