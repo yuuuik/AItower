@@ -154,6 +154,23 @@ export default function GuidePage() {
             Перейти на 1win и играть на реальные деньги
           </a>
 
+          <section className="mt-10">
+            <h2 className="text-lg font-bold mb-5 flex items-center gap-2">
+              <span className="w-1 h-5 rounded-full bg-gradient-to-b from-purple-400 to-blue-400 inline-block" />
+              Другие демо-игры с AI-аналитикой
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <a href="https://mines-prediction.vercel.app/" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 hover:bg-white/[0.04] transition-colors">
+                <p className="text-white font-semibold text-sm mb-1">Mines — демо с AI Аналитиком</p>
+                <p className="text-white/40 text-xs">AI подсвечивает безопасные клетки на поле 5×5</p>
+              </a>
+              <a href="https://astronaut-prediction.vercel.app/" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 hover:bg-white/[0.04] transition-colors">
+                <p className="text-white font-semibold text-sm mb-1">Astronaut — демо краш-игры</p>
+                <p className="text-white/40 text-xs">Растущий множитель с AI-сигналами вывода</p>
+              </a>
+            </div>
+          </section>
+
         </article>
       </div>
     </PageLayout>
